@@ -13,7 +13,7 @@ export default function Login() {
         <TextInput style={styles.TextInput} defaultValue="password" />
       </View>
       <View style={styles.input}>
-        <Button title="Login" />
+        <Button title="Login" onPress= {() => "do nothing"}/>
       </View>
     </View>
   );
